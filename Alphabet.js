@@ -1,0 +1,40 @@
+let id; //id
+let letter; //'а', 'б' ...
+let sound; //'vowel' || 'consonant'
+const alphabet = [
+  { id: 0, letter: "а", sound: "vowel" },
+  { id: 1, letter: "б", sound: "consonant" },
+  { id: 2, letter: "в", sound: "consonant" },
+  { id: 3, letter: "г", sound: "consonant" },
+  { id: 4, letter: "ґ", sound: "consonant" },
+  { id: 5, letter: "д", sound: "consonant" },
+  { id: 6, letter: "е", sound: "vowel" },
+  { id: 7, letter: "є", sound: "vowel" },
+  { id: 8, letter: "ж", sound: "consonant" },
+  { id: 9, letter: "з", sound: "consonant" },
+  { id: 10, letter: "и", sound: "vowel" },
+  { id: 11, letter: "і", sound: "vowel" },
+  { id: 12, letter: "ї", sound: "vowel" },
+  { id: 13, letter: "й", sound: "consonant" },
+  { id: 14, letter: "к", sound: "consonant" },
+  { id: 15, letter: "л", sound: "consonant" },
+  { id: 16, letter: "м", sound: "consonant" },
+  { id: 17, letter: "н", sound: "consonant" },
+  { id: 18, letter: "о", sound: "vowel" },
+  { id: 19, letter: "п", sound: "consonant" },
+  { id: 20, letter: "р", sound: "consonant" },
+  { id: 21, letter: "с", sound: "consonant" },
+  { id: 22, letter: "т", sound: "consonant" },
+  { id: 23, letter: "у", sound: "vowel" },
+  { id: 24, letter: "ф", sound: "consonant" },
+  { id: 25, letter: "х", sound: "consonant" },
+  { id: 26, letter: "ц", sound: "consonant" },
+  { id: 27, letter: "ч", sound: "consonant" },
+  { id: 28, letter: "ш", sound: "consonant" },
+  { id: 29, letter: "щ", sound: "consonant" },
+  { id: 30, letter: "ь", sound: "consonant" },
+  { id: 31, letter: "ю", sound: "vowel" },
+  { id: 32, letter: "я", sound: "vowel" },
+];
+
+export default [alphabet];
